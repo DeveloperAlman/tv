@@ -24,9 +24,9 @@ document.addEventListener("DOMContentLoaded", () => {
     parent: document.querySelector(".background"),
     intensity: 0.3,
     imagesRatio: 1080 / 1920,
-    image1: `img/${bgImgs[0]}`,
-    image2: `img/${bgImgs[1]}`,
-    displacementImage: "img/14.jpg",
+    image1: `${bgImgs[0]}`,
+    image2: `${bgImgs[1]}`,
+    displacementImage: "14.jpg",
     hover: false
   });
 
@@ -34,9 +34,9 @@ document.addEventListener("DOMContentLoaded", () => {
     parent: document.querySelector(".background"),
     intensity: 0.3,
     imagesRatio: 1080 / 1920,
-    image1: `img/${bgImgs[1]}`,
-    image2: `img/${bgImgs[2]}`,
-    displacementImage: "img/14.jpg",
+    image1: `${bgImgs[1]}`,
+    image2: `${bgImgs[2]}`,
+    displacementImage: "14.jpg",
     hover: false
   });
 
@@ -44,9 +44,9 @@ document.addEventListener("DOMContentLoaded", () => {
     parent: document.querySelector(".background"),
     intensity: 0.3,
     imagesRatio: 1080 / 1920,
-    image1: `img/${bgImgs[2]}`,
-    image2: `img/${bgImgs[3]}`,
-    displacementImage: "img/14.jpg",
+    image1: `${bgImgs[2]}`,
+    image2: `${bgImgs[3]}`,
+    displacementImage: "14.jpg",
     hover: false
   });
 
@@ -54,54 +54,54 @@ document.addEventListener("DOMContentLoaded", () => {
     parent: document.querySelector(".background"),
     intensity: 0.3,
     imagesRatio: 1080 / 1920,
-    image1: `img/${bgImgs[3]}`,
-    image2: `img/${bgImgs[4]}`,
-    displacementImage: "img/14.jpg",
+    image1: `${bgImgs[3]}`,
+    image2: `${bgImgs[4]}`,
+    displacementImage: "14.jpg",
     hover: false
   });
   var myAnimation5 = new hoverEffect({
     parent: document.querySelector(".background"),
     intensity: 0.3,
     imagesRatio: 1080 / 1920,
-    image1: `img/${bgImgs[4]}`,
-    image2: `img/${bgImgs[5]}`,
-    displacementImage: "img/14.jpg",
+    image1: `${bgImgs[4]}`,
+    image2: `${bgImgs[5]}`,
+    displacementImage: "14.jpg",
     hover: false
   });
   var myAnimation6 = new hoverEffect({
     parent: document.querySelector(".background"),
     intensity: 0.3,
     imagesRatio: 1080 / 1920,
-    image1: `img/${bgImgs[5]}`,
-    image2: `img/${bgImgs[6]}`,
-    displacementImage: "img/14.jpg",
+    image1: `${bgImgs[5]}`,
+    image2: `${bgImgs[6]}`,
+    displacementImage: "14.jpg",
     hover: false
   });
   var myAnimation7 = new hoverEffect({
     parent: document.querySelector(".background"),
     intensity: 0.3,
     imagesRatio: 1080 / 1920,
-    image1: `img/${bgImgs[6]}`,
-    image2: `img/${bgImgs[7]}`,
-    displacementImage: "img/14.jpg",
+    image1: `${bgImgs[6]}`,
+    image2: `${bgImgs[7]}`,
+    displacementImage: "14.jpg",
     hover: false
   });
   var myAnimation8 = new hoverEffect({
     parent: document.querySelector(".background"),
     intensity: 0.3,
     imagesRatio: 1080 / 1920,
-    image1: `img/${bgImgs[7]}`,
-    image2: `img/${bgImgs[8]}`,
-    displacementImage: "img/14.jpg",
+    image1: `${bgImgs[7]}`,
+    image2: `${bgImgs[8]}`,
+    displacementImage: "14.jpg",
     hover: false
   });
   var myAnimation9 = new hoverEffect({
     parent: document.querySelector(".background"),
     intensity: 0.3,
     imagesRatio: 1080 / 1920,
-    image1: `img/${bgImgs[8]}`,
-    image2: `img/${bgImgs[0]}`,
-    displacementImage: "img/14.jpg",
+    image1: `${bgImgs[8]}`,
+    image2: `${bgImgs[0]}`,
+    displacementImage: "14.jpg",
     hover: false
   });
 
